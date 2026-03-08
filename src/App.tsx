@@ -34,7 +34,7 @@ const PROJECTS: Project[] = [
     description: "Projet de mémoire basé sur la vision par ordinateur pour la détection de véhicules.",
     technologies: ["YOLO", "Python", "Django", "Angular", "React Native", "Google Maps API"],
     features: ["Détection automatique", "Reconnaissance de plaques (OCR)", "Localisation", "Paiement Mobile Money"],
-    image: "src/images/banner_parking.png"
+    image: "/images/banner_parking.png"
   },
   {
     title: "Site officiel de la mairie de Ziguinchor",
