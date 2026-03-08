@@ -27,7 +27,7 @@ const PROJECTS: Project[] = [
     description: "Plateforme intelligente de traduction intégrant un modèle d’intelligence artificielle.",
     technologies: ["Flutter", "Angular", "Django", "REST API"],
     features: ["Traduction automatique", "Interface utilisateur moderne", "Intégration IA", "Participation collaborative"],
-    image: "src/images/banner_sentekki.png"
+    image: "/images/banner_sentekki.png"
   },
   {
     title: "Application intelligente de gestion de parking",
@@ -48,7 +48,7 @@ const PROJECTS: Project[] = [
     description: "Projet collaboratif pour optimiser la gestion des stocks et des donneurs.",
     technologies: ["Flutter", "Laravel", "Angular", "REST API"],
     features: ["Gestion des donneurs", "Suivi des stocks", "Recherche intelligente"],
-    image: "src/images/banner_dondesang.png"
+    image: "/images/banner_dondesang.png"
   }
 ];
 
@@ -221,7 +221,7 @@ const Hero = () => {
                 Voir mes projets
               </a>
               <a
-                href="src/docs/mamadou_faye_developpeur_fullstack.pdf"
+                href="/docs/mamadou_faye_developpeur_fullstack.pdf"
                 Download
                 className="flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-6 py-3 text-sm font-semibold text-slate-900 shadow-sm hover:bg-slate-50 dark:border-slate-800 dark:bg-slate-900 dark:text-white dark:hover:bg-slate-800"
               >
@@ -245,7 +245,7 @@ const Hero = () => {
           >
             <div className="relative h-64 w-64 overflow-hidden rounded-2xl border-4 border-white shadow-2xl dark:border-slate-800 sm:h-80 sm:w-80 lg:h-96 lg:w-96">
               <img
-                src="/src/images/faye_dev_square.png"
+                src="/images/faye_dev_square.png"
                 alt="Mamadou Faye"
                 className="h-full w-full object-cover"
                 onError={(e) => {
@@ -313,12 +313,12 @@ const About = () => {
                    <div className="text-sm opacity-80">Projets Terminés</div>
                 </div>
                 <div className="aspect-[4/3] rounded-2xl bg-slate-200 dark:bg-slate-800 overflow-hidden">
-                   <img src="src/images/desk.jpeg" className="w-full h-full object-cover" alt="Coding" />
+                   <img src="/images/desk.jpeg" className="w-full h-full object-cover" alt="Coding" />
                 </div>
              </div>
              <div className="space-y-4 pt-8">
                 <div className="aspect-[4/3] rounded-2xl bg-slate-200 dark:bg-slate-800 overflow-hidden">
-                   <img src="src/images/faye.jpg" className="w-full h-full object-cover" alt="Coding" />
+                   <img src="/images/faye.jpg" className="w-full h-full object-cover" alt="Coding" />
                 </div>
                 <div className="aspect-square rounded-2xl bg-slate-800 dark:bg-indigo-900 p-8 text-white flex flex-col justify-end">
                    <div className="text-xl font-bold">Innovation</div>
