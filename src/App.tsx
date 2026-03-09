@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Sun, Moon, Menu, X, Github, Linkedin, Mail, Phone, ExternalLink, Download, ChevronRight, ChevronUp, GithubIcon, GitlabIcon } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
+import { link } from 'fs';
 
 // --- Types ---
 interface Project {
@@ -9,6 +10,7 @@ interface Project {
   technologies: string[];
   features: string[];
   image: string;
+  link: string;
 }
 
 interface Experience {
@@ -27,28 +29,39 @@ const PROJECTS: Project[] = [
     description: "Plateforme intelligente de traduction intégrant un modèle d’intelligence artificielle.",
     technologies: ["Flutter", "Angular", "Django", "REST API"],
     features: ["Traduction automatique", "Interface utilisateur moderne", "Intégration IA", "Participation collaborative"],
-    image: "/images/banner_sentekki.png"
+    image: "/images/banner_sentekki.png",
+    link: "https://github.com/faye2003/frontend_sentekki",
   },
   {
     title: "Application intelligente de gestion de parking",
     description: "Projet de mémoire basé sur la vision par ordinateur pour la détection de véhicules.",
     technologies: ["YOLO", "Python", "Django", "Angular", "React Native", "Google Maps API"],
     features: ["Détection automatique", "Reconnaissance de plaques (OCR)", "Localisation", "Paiement Mobile Money"],
-    image: "/images/banner_parking.png"
+    image: "/images/banner_parking.png",
+    link: "https://github.com/faye2003/gestion_parking_front"
   },
   {
-    title: "Site officiel de la mairie de Ziguinchor",
-    description: "Refonte complète et sécurisation du site institutionnel.",
-    technologies: ["Laravel", "Bootstrap", "JavaScript", "CSS"],
+    title: "Plateforme éducative moderne pour écoles",
+    description: "Développement complète et sécurisation du backoffice institutionnel.",
+    technologies: ["Laravel", "Html", "AngularJS", "CSS", "GraphQL"],
     features: ["Sécurité renforcée", "Architecture robuste", "Design responsive"],
-    image: "https://picsum.photos/seed/mairie/800/600"
+    image: "/images/banner_school.png",
+    link: "https://github.com/faye2003/memoire_Licence3_back"
   },
+  // {
+  //   title: "Site officiel de la mairie de Ziguinchor",
+  //   description: "Refonte complète et sécurisation du site institutionnel.",
+  //   technologies: ["Laravel", "Bootstrap", "JavaScript", "CSS"],
+  //   features: ["Sécurité renforcée", "Architecture robuste", "Design responsive"],
+  //   image: "/images/banner_school.png"
+  // },
   {
     title: "Plateforme de gestion des dons de sang",
     description: "Projet collaboratif pour optimiser la gestion des stocks et des donneurs.",
     technologies: ["Flutter", "Laravel", "Angular", "REST API"],
     features: ["Gestion des donneurs", "Suivi des stocks", "Recherche intelligente"],
-    image: "/images/banner_dondesang.png"
+    image: "/images/banner_dondesang.png",
+    link: "https://github.com/sendevhub/Frontend-don-de-sang"
   }
 ];
 
@@ -211,7 +224,7 @@ const Hero = () => {
             </p>
             <p className="mt-6 text-lg leading-8 text-slate-600 dark:text-slate-400">
               Créateur de solutions web & mobiles innovantes. Passionné par l’IA, l’UX et la performance. 
-              Actuellement étudiant en Master 2 à l’Université Numérique Cheikh Hamidou Kane (UNCHK).
+              Je suis titulaire d'un Master en Informatique, Conception et Développement d'Application Fullstack Web et Mobile à l’Université Numérique Cheikh Hamidou Kane (UNCHK).
             </p>
             <div className="mt-10 flex flex-wrap items-center justify-center gap-4 lg:justify-start">
               <a
@@ -221,7 +234,7 @@ const Hero = () => {
                 Voir mes projets
               </a>
               <a
-                href="/docs/mamadou_faye_developpeur_fullstack.pdf"
+                href="/docs/CV_Mamadou_FAYE_developpeur.pdf"
                 Download
                 className="flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-6 py-3 text-sm font-semibold text-slate-900 shadow-sm hover:bg-slate-50 dark:border-slate-800 dark:bg-slate-900 dark:text-white dark:hover:bg-slate-800"
               >
@@ -255,7 +268,7 @@ const Hero = () => {
             </div>
             <div className="absolute -bottom-6 -right-6 h-24 w-24 rounded-2xl bg-indigo-600/10 backdrop-blur-xl border border-indigo-600/20 flex items-center justify-center text-indigo-600">
                <div className="text-center">
-                  <div className="text-2xl font-bold">3+</div>
+                  <div className="text-2xl font-bold">1+</div>
                   <div className="text-[10px] uppercase tracking-wider font-bold">Ans d'exp</div>
                </div>
             </div>
@@ -441,7 +454,7 @@ const Projects = () => {
                     <ExternalLink size={18} /> Live Demo
                   </a>
                   <a
-                    href="#"
+                    href={project.link}
                     className="flex items-center gap-2 text-sm font-bold text-slate-900 dark:text-white hover:text-indigo-600 dark:hover:text-indigo-400"
                   >
                     <Github size={18} /> Code
