@@ -234,7 +234,7 @@ const Hero = () => {
                 Voir mes projets
               </a>
               <a
-                href="/docs/CV_Mamadou_FAYE_developpeur.pdf"
+                href="#"
                 Download
                 className="flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-6 py-3 text-sm font-semibold text-slate-900 shadow-sm hover:bg-slate-50 dark:border-slate-800 dark:bg-slate-900 dark:text-white dark:hover:bg-slate-800"
               >
@@ -400,7 +400,7 @@ const Projects = () => {
               Quelques-unes de mes réalisations récentes.
             </p>
           </div>
-          <a href="https://github.com/faye2003" className="flex items-center gap-2 text-indigo-600 font-semibold hover:underline">
+          <a href="https://github.com/faye2003" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-indigo-600 font-semibold hover:underline">
             Voir tout sur GitHub <ChevronRight size={20} />
           </a>
         </div>
@@ -456,6 +456,7 @@ const Projects = () => {
                   <a
                     href={project.link}
                     className="flex items-center gap-2 text-sm font-bold text-slate-900 dark:text-white hover:text-indigo-600 dark:hover:text-indigo-400"
+                    target="_blank" rel="noopener noreferrer"
                   >
                     <Github size={18} /> Code
                   </a>
@@ -565,7 +566,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-indigo-200">LinkedIn</p>
-                  <p className="text-lg font-semibold"><a href="https://linkedin.com/in/mamadou-faye-dev">linkedin.com/in/mamadou-faye-dev</a></p>
+                  <p className="text-lg font-semibold"><a href="https://linkedin.com/in/mamadou-faye-dev" target="_blank" rel="noopener noreferrer">linkedin.com/in/mamadou-faye-dev</a></p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
@@ -574,7 +575,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-indigo-200">GitHub</p>
-                  <p className="text-lg font-semibold"><a href="https://github.com/faye2003">github.com/faye2003</a></p>
+                  <p className="text-lg font-semibold"><a href="https://github.com/faye2003" target="_blank" rel="noopener noreferrer">github.com/faye2003</a></p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
@@ -583,7 +584,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-indigo-200">GitLab</p>
-                  <p className="text-lg font-semibold"><a href="https://gitlab.com/Mamadou-Faye">gitlab.com/Mamadou-Faye</a></p>
+                  <p className="text-lg font-semibold"><a href="https://gitlab.com/Mamadou-Faye" target="_blank" rel="noopener noreferrer">gitlab.com/Mamadou-Faye</a></p>
                 </div>
               </div>
             </div>
@@ -633,9 +634,9 @@ const Footer = () => {
             © {new Date().getFullYear()} Mamadou Faye. Tous droits réservés.
           </p>
           <div className="flex items-center gap-6">
-            <a href="#" className="text-slate-400 hover:text-indigo-600 transition-colors"><Github size={20} /></a>
-            <a href="#" className="text-slate-400 hover:text-indigo-600 transition-colors"><Linkedin size={20} /></a>
-            <a href="#" className="text-slate-400 hover:text-indigo-600 transition-colors"><Mail size={20} /></a>
+            <a href="https://github.com/faye2003" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-indigo-600 transition-colors"><Github size={20} /></a>
+            <a href="https://www.linkedin.com/in/mamadou-faye-dev" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-indigo-600 transition-colors"><Linkedin size={20} /></a>
+            <a href="#" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-indigo-600 transition-colors"><Mail size={20} /></a>
           </div>
         </div>
       </div>
