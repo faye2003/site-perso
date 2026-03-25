@@ -25,6 +25,14 @@ interface Experience {
 // --- Data ---
 const PROJECTS: Project[] = [
   {
+    title: "Site officiel Salon de beauté BODY-CULT à Saly",
+    description: "Prospection, Développement complète, Déploiement et livraison du site .",
+    technologies: ["NodeJs", "React", "Firebase", "Tailwind CSS"],
+    features: ["Navigation Fluide", "Contact Facile (CTA)", "Design responsive"],
+    image: "/images/banner_salon_beauty.png",
+    link: "https://github.com/faye2003/",
+  },
+  {
     title: "SenTekki – Plateforme de traduction Wolof ↔ Français",
     description: "Plateforme intelligente de traduction intégrant un modèle d’intelligence artificielle.",
     technologies: ["Flutter", "Angular", "Django", "REST API"],
