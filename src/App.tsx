@@ -30,7 +30,7 @@ const PROJECTS: Project[] = [
     technologies: ["NodeJs", "React", "Firebase", "Tailwind CSS"],
     features: ["Navigation Fluide", "Contact Facile (CTA)", "Design responsive"],
     image: "/images/banner_salon_beauty.png",
-    link: "https://github.com/faye2003/",
+    link: "https://github.com/faye2003/site_body_cult",
   },
   {
     title: "SenTekki – Plateforme de traduction Wolof ↔ Français",
