@@ -11,6 +11,7 @@ interface Project {
   features: string[];
   image: string;
   link: string;
+  link_demo: string;
 }
 
 interface Experience {
@@ -25,36 +26,49 @@ interface Experience {
 // --- Data ---
 const PROJECTS: Project[] = [
   {
+    title: "Site officiel Du Restaurant Nooko Beugué à Saly",
+    description: "Prospection, Développement complète, Déploiement et livraison du site .",
+    technologies: ["React", "Firebase", "HTML5", "Tailwind CSS"],
+    features: ["Navigation Fluide", "Contact Facile (CTA)", "Design responsive"],
+    image: "/images/banner_resto_nb.png",
+    link: "https://github.com/faye2003/",
+    link_demo: "https://nooko-beuguee-resto.web.app/"
+  },
+  {
     title: "Site officiel Salon de beauté BODY-CULT à Saly",
     description: "Prospection, Développement complète, Déploiement et livraison du site .",
     technologies: ["NodeJs", "React", "Firebase", "Tailwind CSS"],
     features: ["Navigation Fluide", "Contact Facile (CTA)", "Design responsive"],
     image: "/images/banner_salon_beauty.png",
     link: "https://github.com/faye2003/site_body_cult",
+    link_demo: "https://seen-beauty-scult.web.app/"
   },
   {
     title: "SenTekki – Plateforme de traduction Wolof ↔ Français",
     description: "Plateforme intelligente de traduction intégrant un modèle d’intelligence artificielle.",
-    technologies: ["Flutter", "Angular", "Django", "REST API"],
+    technologies: ["Flutter", "Angular", "Django", "PostgreSQL", "REST API"],
     features: ["Traduction automatique", "Interface utilisateur moderne", "Intégration IA", "Participation collaborative"],
     image: "/images/banner_sentekki.png",
     link: "https://github.com/faye2003/frontend_sentekki",
+    link_demo: "https://sentekki.unchk.sn/"
   },
   {
     title: "Application intelligente de gestion de parking",
     description: "Projet de mémoire basé sur la vision par ordinateur pour la détection de véhicules.",
-    technologies: ["YOLO", "Python", "Django", "Angular", "React Native", "Google Maps API"],
+    technologies: ["YOLO", "PostgreSQL", "Python", "Django", "Angular", "React Native", "Google Maps API"],
     features: ["Détection automatique", "Reconnaissance de plaques (OCR)", "Localisation", "Paiement Mobile Money"],
     image: "/images/banner_parking.png",
-    link: "https://github.com/faye2003/gestion_parking_front"
+    link: "https://github.com/faye2003/gestion_parking_front",
+    link_demo: ""
   },
   {
     title: "Plateforme éducative moderne pour écoles",
     description: "Développement complète et sécurisation du backoffice institutionnel.",
-    technologies: ["Laravel", "Html", "AngularJS", "CSS", "GraphQL"],
+    technologies: ["Laravel", "HMTL5", "AngularJS", "CSS", "PostgreSQL", "GraphQL"],
     features: ["Sécurité renforcée", "Architecture robuste", "Design responsive"],
     image: "/images/banner_school.png",
-    link: "https://github.com/faye2003/memoire_Licence3_back"
+    link: "https://github.com/faye2003/memoire_Licence3_back",
+    link_demo: ""
   },
   // {
   //   title: "Site officiel de la mairie de Ziguinchor",
@@ -66,10 +80,11 @@ const PROJECTS: Project[] = [
   {
     title: "Plateforme de gestion des dons de sang",
     description: "Projet collaboratif pour optimiser la gestion des stocks et des donneurs.",
-    technologies: ["Flutter", "Laravel", "Angular", "REST API"],
-    features: ["Gestion des donneurs", "Suivi des stocks", "Recherche intelligente"],
+    technologies: ["Flutter", "Laravel", "Angular", "MySQL", "REST API"],
+    features: ["Gestion des donneurs, Banques, Demandes, Campagnes, etc", "Suivi des stocks", "Transfert Poches"],
     image: "/images/banner_dondesang.png",
-    link: "https://github.com/sendevhub/Frontend-don-de-sang"
+    link: "https://github.com/sendevhub/Frontend-don-de-sang",
+    link_demo: ""
   }
 ];
 
@@ -243,7 +258,6 @@ const Hero = () => {
               </a>
               <a
                 href="#"
-                Download
                 className="flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-6 py-3 text-sm font-semibold text-slate-900 shadow-sm hover:bg-slate-50 dark:border-slate-800 dark:bg-slate-900 dark:text-white dark:hover:bg-slate-800"
               >
                 <Download size={18} /> Télécharger mon CV
@@ -456,7 +470,7 @@ const Projects = () => {
                 </div>
                 <div className="mt-8 flex items-center gap-4">
                   <a
-                    href="#"
+                    href={project.link_demo}
                     className="flex items-center gap-2 text-sm font-bold text-slate-900 dark:text-white hover:text-indigo-600 dark:hover:text-indigo-400"
                   >
                     <ExternalLink size={18} /> Live Demo
