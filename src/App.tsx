@@ -471,6 +471,7 @@ const Projects = () => {
                 <div className="mt-8 flex items-center gap-4">
                   <a
                     href={project.link_demo}
+                    target='_blank'
                     className="flex items-center gap-2 text-sm font-bold text-slate-900 dark:text-white hover:text-indigo-600 dark:hover:text-indigo-400"
                   >
                     <ExternalLink size={18} /> Live Demo
