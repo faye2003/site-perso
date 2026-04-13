@@ -1,12 +1,11 @@
+# Profile Développeur de Mamadou FAYE
+
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+<img width="1200" height="400" alt="profile" src="public/images/faye_pro.png">
 </div>
 
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/4a820d4d-45b7-4517-8e2f-704d4aa549bf
+## Accéder au site de mon portfolio
+[Voir le portfolio](https://www.mamadou-faye.com)
 
 ## Run Locally
 
@@ -20,22 +19,21 @@ View your app in AI Studio: https://ai.studio/apps/4a820d4d-45b7-4517-8e2f-704d4
    `npm run dev`
 "# site-perso" 
 
-
-Voici une **version complète de ton CV optimisée pour le poste d’Opérateur Poste de Contrôle**.
-L’objectif est de **garder ta force informatique** tout en montrant que tu es **adapté à un poste de supervision et de contrôle**.
-
 ---
 
 # **Mamadou FAYE**
 
-**Opérateur Poste de Contrôle – Profil Informatique**
+**Développeur Full Stack – Profil Informatique**
 
 📧 [fayem7409@gmail.com](mailto:fayem7409@gmail.com)
 📞 +221 77 382 76 53
 
-🔗 LinkedIn : /in/mamadou-faye-dev
-🔗 GitHub : /faye2003
-🔗 GitLab : /Mamadou-Faye
+- 🔗 LinkedIn : /in/mamadou-faye-dev
+[Voir](https://www.linkedin.com/in/mamadou-faye-dev/)
+- 🔗 GitHub : /faye2003
+[Voir](https://github.com/faye2003/)
+- 🔗 GitLab : /Mamadou-Faye
+[Voir](https://github.com/Mamadou-Faye/)
 
 ---
 
@@ -157,21 +155,3 @@ Anglais : Technique (lu et écrit)
 # **Centres d’intérêt**
 
 Sport (football) – Lecture – Musique
-
----
-
-✅ Ce CV est **optimisé pour le poste** car il montre :
-
-* ta **rigueur**
-* ta **capacité d’analyse**
-* ta **maîtrise informatique**
-* ta **capacité à surveiller et interpréter des systèmes**
-
-Tout ce que recherche un **poste de contrôle / supervision**.
-
----
-
-💡 Si tu veux, je peux aussi te faire **deux améliorations très puissantes** qui peuvent augmenter tes chances d’être convoqué :
-
-1️⃣ **La version CV qui passe mieux les filtres RH et ATS**
-2️⃣ **Une lettre de motivation très efficace pour ce poste (qui attire l’attention en 20 secondes)**.
