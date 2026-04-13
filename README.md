@@ -1,11 +1,11 @@
-# Profile Développeur de Mamadou FAYE
+# Profile Développeur de **Mamadou FAYE**
 
 <div align="center">
 <img width="1200" height="400" alt="profile" src="public/images/faye_pro.png">
 </div>
 
-## Accéder au site de mon portfolio
-[Voir le portfolio](https://www.mamadou-faye.com)
+## Accéder à mon site perso
+* [Voir mon profil](https://www.mamadou-faye.com)
 
 ## Run Locally
 
@@ -23,29 +23,31 @@
 
 # **Mamadou FAYE**
 
-**Développeur Full Stack – Profil Informatique**
+#### **Développeur Full Stack – Profil Informatique**
 
-📧 [fayem7409@gmail.com](mailto:fayem7409@gmail.com)
-📞 +221 77 382 76 53
+- 📧 [fayem7409@gmail.com](mailto:fayem7409@gmail.com)
+- 📞 +221 77 382 76 53
 
 - 🔗 LinkedIn : /in/mamadou-faye-dev
-[Voir](https://www.linkedin.com/in/mamadou-faye-dev/)
+[**voir**](https://www.linkedin.com/in/mamadou-faye-dev/)
 - 🔗 GitHub : /faye2003
-[Voir](https://github.com/faye2003/)
+[**voir**](https://github.com/faye2003/)
 - 🔗 GitLab : /Mamadou-Faye
-[Voir](https://github.com/Mamadou-Faye/)
+[**voir**](https://github.com/Mamadou-Faye/)
+- 🔗 Portfolio : www.mamadou-faye.com
+[**voir**](https://www.mamadou-faye.com/)
 
 ---
 
 # **Profil**
 
-Titulaire d’un Master en Informatique spécialisé en conception et développement d’applications, je possède une solide capacité d’analyse et d’interprétation des données informatiques. Rigoureux, organisé et attentif aux détails, je suis particulièrement intéressé par les missions de supervision et de contrôle nécessitant vigilance, réactivité et respect des procédures. Mon expérience dans le développement et l’analyse de systèmes numériques me permet de comprendre rapidement les dysfonctionnements techniques et d’y apporter des solutions adaptées.
+Titulaire d’un **Master en Informatique** spécialisé en conception et développement d’applications, je possède une solide capacité d’analyse et d’interprétation des données informatiques. Rigoureux, organisé et attentif aux détails, je suis particulièrement intéressé par les missions de supervision et de contrôle nécessitant vigilance, réactivité et respect des procédures. Mon expérience dans le développement et l’analyse de systèmes numériques me permet de comprendre rapidement les dysfonctionnements techniques et d’y apporter des solutions adaptées.
 
 ---
 
 # **Compétences**
 
-### Analyse et supervision
+### **Analyse et supervision**
 
 * Analyse et interprétation de données informatiques
 * Surveillance et diagnostic de systèmes numériques
@@ -53,7 +55,7 @@ Titulaire d’un Master en Informatique spécialisé en conception et développe
 * Gestion d’alertes et remontée d’incidents
 * Respect des procédures et protocoles de fonctionnement
 
-### Outils informatiques
+### **Outils informatiques**
 
 * Linux
 * PostgreSQL / SQL
@@ -61,7 +63,7 @@ Titulaire d’un Master en Informatique spécialisé en conception et développe
 * Postman
 * VS Code
 
-### Connaissances techniques
+### **Connaissances techniques**
 
 * Angular
 * Django
@@ -154,4 +156,4 @@ Anglais : Technique (lu et écrit)
 
 # **Centres d’intérêt**
 
-Sport (football) – Lecture – Musique
+**Sport (football) – Lecture – Musique**
