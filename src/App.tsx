@@ -154,7 +154,12 @@ const Navbar = ({ darkMode, toggleDarkMode }: { darkMode: boolean; toggleDarkMod
     <nav className="fixed top-0 z-50 w-full border-b border-slate-200 bg-white/80 backdrop-blur-md dark:border-slate-800 dark:bg-slate-950/80">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
         <div className="flex items-center gap-2">
-          <div className="h-8 w-8 rounded-lg bg-indigo-600 flex items-center justify-center text-white font-bold">M</div>
+          <img
+            src="/images/logo-rm2.png"
+            alt="Logo"
+            className="h-8 w-8 rounded-lg object-cover"
+          />
+          {/* <div className="h-8 w-8 rounded-lg bg-indigo-600 flex items-center justify-center text-white font-bold">M</div> */}
           <span className="text-xl font-bold tracking-tight text-slate-900 dark:text-white">Mamadou Faye</span>
         </div>
 
@@ -226,10 +231,10 @@ const Hero = () => {
   return (
     <section id="home" className="relative flex min-h-screen items-center justify-center overflow-hidden pt-20">
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_50%_50%,rgba(79,70,229,0.1),transparent_50%)]" />
-      
+
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center gap-12 lg:flex-row lg:justify-between">
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
@@ -246,7 +251,7 @@ const Hero = () => {
               Full Stack Developer | Web & Mobile | IA & Innovation
             </p>
             <p className="mt-6 text-lg leading-8 text-slate-600 dark:text-slate-400">
-              Créateur de solutions web & mobiles innovantes. Passionné par l’IA, l’UX et la performance. 
+              Créateur de solutions web & mobiles innovantes. Passionné par l’IA, l’UX et la performance.
               Je suis titulaire d'un Master en Informatique, Conception et Développement d'Application Fullstack Web et Mobile à l’Université Numérique Cheikh Hamidou Kane (UNCHK).
             </p>
             <div className="mt-10 flex flex-wrap items-center justify-center gap-4 lg:justify-start">
@@ -289,10 +294,10 @@ const Hero = () => {
               />
             </div>
             <div className="absolute -bottom-6 -right-6 h-24 w-24 rounded-2xl bg-indigo-600/10 backdrop-blur-xl border border-indigo-600/20 flex items-center justify-center text-indigo-600">
-               <div className="text-center">
-                  <div className="text-2xl font-bold">1+</div>
-                  <div className="text-[10px] uppercase tracking-wider font-bold">Ans d'exp</div>
-               </div>
+              <div className="text-center">
+                <div className="text-2xl font-bold">1+</div>
+                <div className="text-[10px] uppercase tracking-wider font-bold">Ans d'exp</div>
+              </div>
             </div>
           </motion.div>
         </div>
@@ -340,26 +345,26 @@ const About = () => {
               </ul>
             </div>
           </motion.div>
-          
+
           <div className="grid grid-cols-2 gap-4">
-             <div className="space-y-4">
-                <div className="aspect-square rounded-2xl bg-indigo-600 p-8 text-white flex flex-col justify-end">
-                   <div className="text-4xl font-bold">10+</div>
-                   <div className="text-sm opacity-80">Projets Terminés</div>
-                </div>
-                <div className="aspect-[4/3] rounded-2xl bg-slate-200 dark:bg-slate-800 overflow-hidden">
-                   <img src="/images/desk.jpeg" className="w-full h-full object-cover" alt="Coding" />
-                </div>
-             </div>
-             <div className="space-y-4 pt-8">
-                <div className="aspect-[4/3] rounded-2xl bg-slate-200 dark:bg-slate-800 overflow-hidden">
-                   <img src="/images/faye.jpg" className="w-full h-full object-cover" alt="Coding" />
-                </div>
-                <div className="aspect-square rounded-2xl bg-slate-800 dark:bg-indigo-900 p-8 text-white flex flex-col justify-end">
-                   <div className="text-xl font-bold">Innovation</div>
-                   <div className="text-sm opacity-80">IA & Web3</div>
-                </div>
-             </div>
+            <div className="space-y-4">
+              <div className="aspect-square rounded-2xl bg-indigo-600 p-8 text-white flex flex-col justify-end">
+                <div className="text-4xl font-bold">10+</div>
+                <div className="text-sm opacity-80">Projets Terminés</div>
+              </div>
+              <div className="aspect-[4/3] rounded-2xl bg-slate-200 dark:bg-slate-800 overflow-hidden">
+                <img src="/images/desk.jpeg" className="w-full h-full object-cover" alt="Coding" />
+              </div>
+            </div>
+            <div className="space-y-4 pt-8">
+              <div className="aspect-[4/3] rounded-2xl bg-slate-200 dark:bg-slate-800 overflow-hidden">
+                <img src="/images/faye.jpg" className="w-full h-full object-cover" alt="Coding" />
+              </div>
+              <div className="aspect-square rounded-2xl bg-slate-800 dark:bg-indigo-900 p-8 text-white flex flex-col justify-end">
+                <div className="text-xl font-bold">Innovation</div>
+                <div className="text-sm opacity-80">IA & Web3</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -459,14 +464,14 @@ const Projects = () => {
                   {project.description}
                 </p>
                 <div className="mt-6">
-                   <h4 className="text-sm font-bold text-slate-900 dark:text-white uppercase tracking-tight">Fonctionnalités clés :</h4>
-                   <ul className="mt-2 space-y-1">
-                      {project.features.map(f => (
-                         <li key={f} className="text-sm text-slate-500 flex items-center gap-2">
-                            <div className="w-1 h-1 bg-indigo-600 rounded-full" /> {f}
-                         </li>
-                      ))}
-                   </ul>
+                  <h4 className="text-sm font-bold text-slate-900 dark:text-white uppercase tracking-tight">Fonctionnalités clés :</h4>
+                  <ul className="mt-2 space-y-1">
+                    {project.features.map(f => (
+                      <li key={f} className="text-sm text-slate-500 flex items-center gap-2">
+                        <div className="w-1 h-1 bg-indigo-600 rounded-full" /> {f}
+                      </li>
+                    ))}
+                  </ul>
                 </div>
                 <div className="mt-8 flex items-center gap-4">
                   <a
